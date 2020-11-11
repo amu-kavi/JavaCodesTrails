@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello World! from the intelliJ! My first code on  intelliJ IDE");
         String Name ="";
         System.out.println("Whats your Name ???");
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); //Scanner is used to take the input fromm the user
         Name =input.nextLine();
         System.out.println("Name : "+Name);
     }
